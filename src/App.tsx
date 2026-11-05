@@ -128,7 +128,7 @@ export default function App() {
   const { q2q3Analysis } = stats;
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col font-sans">
+    <div className="min-h-screen bg-sky-100 flex flex-col font-sans">
       {/* Top Bar Header */}
       <Header
         activeTab={activeTab}
