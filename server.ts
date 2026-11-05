@@ -87,7 +87,7 @@ Instructions:
 - Do NOT invent any numbers. Output only the 3 sentences.`;
 
     const generatePromise = ai.models.generateContent({
-      model: 'gemini-3.1-flash-lite',
+      model: 'gemini-3.8-flash',
       contents: prompt,
     });
 
@@ -96,7 +96,7 @@ Instructions:
     );
 
     let outputText = '';
-    let usedModel = 'gemini-3.1-flash-lite';
+    let usedModel = 'gemini-3.8-flash';
 
     try {
       const response = (await Promise.race([generatePromise, timeoutPromise])) as any;
