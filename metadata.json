@@ -1,0 +1,6 @@
+{
+  "name": "Veloce Sales Analytics",
+  "description": "Enterprise sales order analytics platform for revenue by region and quarter, with CSV ingestion, interactive charts, pivot tables, and mathematically verified AI summaries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
